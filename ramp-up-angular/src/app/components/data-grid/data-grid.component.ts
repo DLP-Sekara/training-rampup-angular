@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 import { FormControl, FormGroup, Validators } from '@angular/forms';
-import { Student } from 'src/app/models/studentData';
+//import { Student } from 'src/app/models/studentData';
 
 import { studentDetails } from 'src/app/models/studentDetails';
 import {
@@ -44,7 +44,6 @@ export class DataGridComponent {
 
   //private editService: EditService;
   private editedRowIndex: number | undefined;
-  private editedProduct: Student |undefined;
   public formGroup: FormGroup | undefined;
   public listItems: Array<string> = [
     'Male',
